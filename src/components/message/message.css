@@ -1,0 +1,8 @@
+.own {
+    align-items:flex-end;
+   
+}
+
+.own.messageText {
+    background-color: black
+}

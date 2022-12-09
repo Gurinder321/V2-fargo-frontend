@@ -1,0 +1,12 @@
+.test {
+    background: url("/add-user.png") no-repeat;
+  transition: background-color 0.5s;
+}
+
+.test:hover {
+    src: {friendsClick} no-repeat;
+}
+
+
+
+      

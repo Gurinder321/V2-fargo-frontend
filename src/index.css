@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .clip-your-needful-style {
+    clip-path: polygon(0 1%, 100% 0, 100% 88%, 0% 100%);
+  }
+} */
+
+@layer components {
+  .sidebar-icon {
+    @apply relative bg-gray-200 cursor-pointer hover:bg-green-600
+  }
+  .sidebar-tooltip {
+    @apply absolute content-center bottom-7 w-auto p-2 min-w-max rounded-md shadow-md text-white text-xs font-bold bg-gray-900 transition-all duration-100 scale-0 origin-bottom
+  }
+}
